@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  background-image: url("img/background_img.png");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.realHead {
+  display: flex;
+  flex-direction: column;
+}
+
+.navLine {
+  margin-left: 30px;
+}
+
+.sideMenu {
+  height: 50px;
+}
+
+.phrases {
+  margin-top: 20px;
+  margin-left: 30px;
+  color: white;
+  text-align: center;
+}
+
+.phrasesh2 {
+  font-size: 25px;
+}
+
+.phraseh1 {
+  font-size: 34px;
+}
+
+.headParaDiv {
+  margin-left: 30px;
+  border: 1px solid red;
+  background-color: white;
+  opacity: 0.6;
+  margin-right: 30px;
+}
+
+.headPara {
+  margin-left: 5px;
+  color: red;
+  text-align: center;
+}
+
+.headLoc {
+  margin-left: 30px;
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+}
