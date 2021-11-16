@@ -4,8 +4,9 @@ body {
 }
 
 .head {
-  background-image: url("img/background3_img.jpg");
-  height: 600px;
+  background-image: url("img/background_img.jpg");
+  height: 700px;
+  background-size: cover;
 }
 
 .realHead {
@@ -13,12 +14,14 @@ body {
   flex-direction: column;
 }
 
-.navLine {
+.sideMenu {
+  display: block;
   margin-left: 30px;
+  height: 50px;
 }
 
-.sideMenu {
-  height: 50px;
+.navSlide {
+  display: none;
 }
 
 .phrases {
@@ -209,4 +212,68 @@ footer {
 
 .plugicon {
   height: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .sideMenu {
+    display: none;
+  }
+
+  .navSlide {
+    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mediNbac {
+    background-color: black;
+    height: 30px
+  }
+
+  .mediaNav {
+    float: right;
+    margin-right: 190px;
+    margin-top: -3px;
+  }
+
+  .mediaNav > li{
+    display: inline;
+    color: white;
+    margin-left: 10px;
+  }
+
+  .relNav {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    gap: 160px;
+    height: 60px;
+    }
+
+  .Navle {
+    display: flex;
+    list-style-type: none;
+    margin-top: 0;
+  }
+
+  .NavRig {
+    float: left;
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin-top: 0;
+  }
+
+  .logoN {
+    height: 30px;
+  }
+
+  .doDivLine {
+    grid-template-columns: auto auto auto auto auto;
+  }
+
+  .doDiv {
+    flex-direction: column;
+    gap: 1px;
+  }
 }
