@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .head {
   background-image: url("img/background3_img.jpg");
   height: 600px;
@@ -57,9 +58,9 @@ body {
 }
 
 .doHead {
- text-align: center;
- color: red;
- font-size: 20px;
+  text-align: center;
+  color: red;
+  font-size: 20px;
 }
 
 .doDivLine {
@@ -190,10 +191,6 @@ footer {
 
 .Div5 {
   color: rgb(190, 195, 199);
-}
-
-.Div4 {
-  color: rgb(159, 162, 165);
 }
 
 .Div3 {
