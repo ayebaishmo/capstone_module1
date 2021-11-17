@@ -14,12 +14,13 @@ body {
   flex-direction: column;
 }
 
-.navLine {
-  margin-left: 30px;
+.sideMenu {
+  display: block;
+  height: 50px;
 }
 
-.sideMenu {
-  height: 50px;
+.navSlide {
+  display: none;
 }
 
 .phrases {
@@ -145,12 +146,14 @@ body {
   background-size: cover;
   text-align: center;
   height: 200px;
+  width: 350px;
 }
 
 .project2 {
   background-image: url("img/project2.jpg");
   background-size: cover;
   text-align: center;
+  width: 350px;
   height: 200px;
 }
 
@@ -158,6 +161,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 20px;
+  justify-content: center;
 }
 
 footer {
@@ -165,10 +169,9 @@ footer {
 }
 
 .partners {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(58, 56, 56);
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
   padding: 10px;
 }
 
@@ -178,8 +181,19 @@ footer {
   font-size: 30px;
 }
 
+.partOn {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.partTw {
+  justify-content: center;
+  gap: 80px;
+  display: flex;
+}
+
 .Div1 {
-  grid-column: 1 / 4;
   color: white;
 }
 
@@ -190,7 +204,7 @@ footer {
 }
 
 .Div2 {
-  color: rgb(190, 195, 199);
+  color: rgb(159, 162, 163);
 }
 
 .Div4 {
@@ -203,7 +217,6 @@ footer {
 
 .Div3 {
   color: rgb(101, 103, 104);
-  grid-column: 1 /3;
 }
 
 .copyright {
@@ -217,4 +230,113 @@ footer {
 
 .plugicon {
   height: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .sideMenu {
+    display: none;
+  }
+
+  .navSlide {
+    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mediNbac {
+    background-color: black;
+    height: 30px
+  }
+
+  .mediaNav {
+    float: right;
+    margin-right: 190px;
+    margin-top: -3px;
+  }
+
+  .mediaNav > li{
+    display: inline;
+    color: white;
+    margin-left: 10px;
+  }
+
+  .relNav {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    gap: 160px;
+    height: 60px;
+    }
+
+  .Navle {
+    display: flex;
+    list-style-type: none;
+    margin-top: 0;
+  }
+
+  .NavRig {
+    float: left;
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin-top: 0;
+  }
+
+  .logoN {
+    height: 30px;
+  }
+
+  .phrasesh2 {
+    font-size: 30px;
+  }
+
+  .phraseh1 {
+    font-size: 60px;
+  }
+
+  .headParaDiv {
+    margin-right: 300px;
+    margin-left: 300px;
+  }
+
+  .plugDetHr {
+    margin-right: 650px;
+    margin-left: 650px;
+  }
+
+  .head {
+    height: 850px;
+  }
+
+  .plugEst {
+    margin-right: 350px;
+    margin-left: 350px;
+  }
+
+  .projectHr {
+  margin-right: 650px;
+  margin-left: 650px;
+  }
+
+  .projectDet {
+  grid-template-columns: auto auto;
+  margin-right: 250px;
+  margin-left: 250px;
+  }
+
+  .partFle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+  }
+
+  .Div1Hr {
+  margin-left: 640px;
+  margin-right: 640px;
+  }
+
+  .copyright {
+    gap: 150px;
+  }
 }

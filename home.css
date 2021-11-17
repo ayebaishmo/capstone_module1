@@ -277,6 +277,11 @@ footer {
     gap: 40px;
     margin-top: 0;
   }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
 
   .logoN {
     height: 30px;
