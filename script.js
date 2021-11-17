@@ -37,7 +37,6 @@ const team = [{
 }
 ]
 
-
 // Heading of the part
 const teamBack = document.querySelector('.teamBack');
 const headFour = document.createElement('h4');
