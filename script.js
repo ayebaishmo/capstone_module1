@@ -17,28 +17,26 @@ function openMobileMenu() {
 
 const team = [{
   img: 'img/avatar1.png',
-  desc: ['Ayebazibwe Ishmael', 'Full stackWeb developer', 'Ishmael is CEO My plug, who has experience in innovating through technology and sftware, for he has enabled the plug store to function'],
+  desc: ['Ayebazibwe Ishmael', 'Full stackWeb developer', '<hr>', 'Ishmael is CEO My plug, who has experience in innovating through technology and sftware, for he has enabled the plug store to function'],
 },
   {
-  img: 'img/avatar1.png',
-  desc: ['Ayebazibwe Ishmael', 'Full stackWeb developer', 'Ishmael is CEO My plug, who has experience in innovating through technology and sftware, for he has enabled the plug store to function'],
+  img: 'img/avatar2.jpg',
+  desc: ['Natweta Edmon', 'Grapphics Designer', '<hr>', 'Edmond heads the graphic department, He is responisible for the brand look of our clients that are need of that service'],
 },{
-  img: 'img/avatar1.png',
-  desc: ['Ayebazibwe Ishmael', 'Full stackWeb developer', 'Ishmael is CEO My plug, who has experience in innovating through technology and sftware, for he has enabled the plug store to function'],
+  img: 'img/avatar5.jpg',
+  desc: ['Masaba Johhn', 'Producer', '<hr>', 'John is the best producer around town, for all our  clients production are readily produced by John Masaba the man'],
 },{
-  img: 'img/avatar1.png',
-  desc: ['Ayebazibwe Ishmael', 'Full stackWeb developer', 'Ishmael is CEO My plug, who has experience in innovating through technology and sftware, for he has enabled the plug store to function'],
+  img: 'img/avatar3.jpg',
+  desc: ['Apio Sheillah', 'Video Director', '<hr>', 'Sheillah is in charge of video and audio commercials for our clients that run on both television and radios plus social media'],
 },{
-  img: 'img/avatar1.png',
-  desc: ['Ayebazibwe Ishmael', 'Full stackWeb developer', 'Ishmael is CEO My plug, who has experience in innovating through technology and sftware, for he has enabled the plug store to function'],
+  img: 'img/avatar4.jpg',
+  desc: ['Nazziwa Jane', 'Marketier', '<hr>', 'Jane dose not only market for My plug but also  my plug store creators who sell and and create products on my plug store'],
 },{
-  img: 'img/avatar1.png',
-  desc: ['Ayebazibwe Ishmael', 'Full stackWeb developer', 'Ishmael is CEO My plug, who has experience in innovating through technology and sftware, for he has enabled the plug store to function'],
-},{
-  img: 'img/avatar1.png',
-  desc: ['Ayebazibwe Ishmael', 'Full stackWeb developer', 'Ishmael is CEO My plug, who has experience in innovating through technology and sftware, for he has enabled the plug store to function'],
+  img: 'img/avatar6.jpg',
+  desc: ['Richard Nabende', 'Program cordinator','<hr>', 'Each year we handle diffrent kinds of project for our clients, Richard makes sure that projects are managed effeciently.'],
 }
 ]
+
 
 // Heading of the part
 const teamBack = document.querySelector('.teamBack');
@@ -66,7 +64,7 @@ for (let i = 0; i < team.length; i += 1) {
   const imgDiv = document.createElement('div');
   teamDec.appendChild(imgDiv);
   const teamImg = document.createElement('img');
-  teamImg.setAttribute('src', team[0].img);
+  teamImg.setAttribute('src', team[i].img);
   teamImg.className = 'avatar1';
   imgDiv.appendChild(teamImg);
 
