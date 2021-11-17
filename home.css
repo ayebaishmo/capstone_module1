@@ -5,7 +5,7 @@ body {
 
 .head {
   background-image: url("img/background_img.jpg");
-  height: 700px;
+  height: 600px;
   background-size: cover;
 }
 
@@ -107,6 +107,11 @@ body {
   margin-right: 30px;
   height: 80px;
   text-align: center;
+  display: block;
+}
+
+.doLink {
+  display: none;
 }
 
 .doInnoPara {
@@ -160,10 +165,9 @@ footer {
 }
 
 .partners {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(58, 56, 56);
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
   padding: 10px;
 }
 
@@ -173,8 +177,19 @@ footer {
   font-size: 30px;
 }
 
+.partOn {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.partTw {
+  justify-content: center;
+  gap: 80px;
+  display: flex;
+}
+
 .Div1 {
-  grid-column: 1 / 4;
   color: white;
 }
 
@@ -198,7 +213,6 @@ footer {
 
 .Div3 {
   color: rgb(101, 103, 104);
-  grid-column: 1 /3;
 }
 
 .copyright {
@@ -276,4 +290,92 @@ footer {
     flex-direction: column;
     gap: 1px;
   }
+
+  .phrases {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  .headParaDiv {
+    margin-right: 460px;
+    margin-left: 100px;
+  }
+
+  .phrasesh2 {
+    font-size: 30px;
+  }
+  
+  .phraseh1 {
+    font-size: 60px;
+  }
+  
+  .head {
+    height: 800px;
+  }
+
+  .headLoc {
+    margin-left: 100px;
+  }
+
+  .doheadHr {
+    margin-left: 650px;
+    margin-right: 650px;
+  }
+
+  .doDivHead {
+    margin-top: -25px;
+  }
+
+  .mainDiv {
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+  
+  .doivpara {
+    margin-top: -25px;
+    text-align: center;
+  }
+
+  .doDivLine {
+    justify-content: center;
+  }
+
+  .doInno {
+    display: none;
+  }
+
+  .doLink{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(79, 80, 82);
+    display: block;
+  }
+
+  .teamBack {
+    margin-top: 80px;
+  }
+
+
+  .ourHr {
+    margin-left: 640px;
+    margin-right: 640px;
+  }
+
+  .teamGrid {
+    grid-template-columns: auto auto;
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+
+  .partFle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+  }
+
+  .copyright {
+    gap: 150px;
+  }
+
 }
