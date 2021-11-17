@@ -12,7 +12,7 @@
         <header class="realHead">
             <div class="navLine">
                 <nav>
-                    <img class="sideMenu" src="img/sideMenu.png" alt="">
+                    <img class="sideMenu" onclick="openMobileMenu()" src="img/sideMenu.png" alt="">
                     <div class="navSlide">
                         <div class="mediNbac">
                             <ul class="mediaNav">
@@ -27,7 +27,7 @@
                             <div>
                                 <ul class="Navle">
                                     <li><img class="logoN" src="img/plug_icon.png" alt=""></li>
-                                    <li> <a href=""><h1>My Plug</a></h1></li>
+                                    <li> <a href=""><h1>My Plug</h1></a></li>
                                 </ul>
                             </div>
                             <div>
@@ -41,6 +41,17 @@
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                    <div class="mobileNav">
+                        <span class="closeMenu" onclick="closeMobileMenu()"><h1>X</h1></span>
+                        <ul class="mobile">
+                                    <li><h2><a href="index.html">Home</a></h2></li>
+                                    <li><h2><a href="about.html">About</a></h2></li>
+                                    <li><h2><a href="">store</a></h2></li>
+                                    <li><h2><a href="">vid</a></h2></li>
+                                    <li><h2><a href="">soft</a></h2></li>
+                                    <li><h2><a href="">shoot</a></h2></li>
+                                </ul>
                     </div>
                 </nav>
             </div>
@@ -329,5 +340,6 @@
             </div>
         </footer>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>

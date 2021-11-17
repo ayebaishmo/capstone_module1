@@ -18,6 +18,30 @@ body {
   display: block;
   margin-left: 30px;
   height: 50px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.mobileNav {
+  background-color: white;
+  margin-top: -20px;
+  display: none;
+}
+
+.mobile {
+  list-style-type: none;
+}
+
+.closeMenu {
+  float: right;
+  margin-right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  color: red;
 }
 
 .navSlide {
@@ -276,11 +300,6 @@ footer {
     list-style-type: none;
     gap: 40px;
     margin-top: 0;
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
   }
 
   .logoN {

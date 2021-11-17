@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-.head {
+.start {
   background-image: url("img/background_img.jpg");
   height: 700px;
   background-size: cover;
@@ -16,8 +16,34 @@ body {
 
 .sideMenu {
   display: block;
+  margin-left: 30px;
   height: 50px;
+  cursor: pointer;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.mobileNav {
+  background-color: white;
+  margin-top: -20px;
+  display: none;
+}
+
+.mobile {
+  list-style-type: none;
+}
+
+.closeMenu {
+  float: right;
+  margin-right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  color: red;
+}
+
 
 .navSlide {
   display: none;
@@ -309,7 +335,7 @@ footer {
     margin-left: 650px;
   }
 
-  .head {
+  .start {
     height: 850px;
   }
 
