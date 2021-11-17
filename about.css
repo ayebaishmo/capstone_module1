@@ -29,6 +29,7 @@ a {
 .mobileNav {
   background-color: white;
   margin-top: -20px;
+  height: 500px;
   display: none;
 }
 
