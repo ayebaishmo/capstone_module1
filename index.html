@@ -12,7 +12,9 @@
         <header class="realHead">
             <div class="navLine">
                 <nav>
-                    <img class="sideMenu" onclick="openMobileMenu()" src="img/sideMenu.png" alt="">
+                    <div class="sideMback">
+                        <img class="sideMenu" onclick="openMobileMenu()" src="img/sideMenu.png" alt="">
+                    </div>
                     <div class="navSlide">
                         <div class="mediNbac">
                             <ul class="mediaNav">
@@ -32,12 +34,12 @@
                             </div>
                             <div>
                                 <ul class="NavRig">
-                                    <li><h2><a href="index.html">Home</a></h2></li>
-                                    <li><h2><a href="about.html">About</a></h2></li>
-                                    <li><h2><a href="">store</a></h2></li>
-                                    <li><h2><a href="">vid</a></h2></li>
-                                    <li><h2><a href="">soft</a></h2></li>
-                                    <li><h2><a href="">shoot</a></h2></li>
+                                    <li><h2><a href="index.html" class="Menuli">Home</a></h2></li>
+                                    <li><h2><a href="about.html" class="Menuli">About</a></h2></li>
+                                    <li><h2><a href="#ph" class="Menuli">Intro</a></h2></li>
+                                    <li><h2><a href="#We_do" class="Menuli">Create</a></h2></li>
+                                    <li><h2><a href="#tea" class="Menuli">Team</a></h2></li>
+                                    <li><h2><a href="#pat" class="Menuli">Partners</a></h2></li>
                                 </ul>
                             </div>
                         </div>
@@ -45,17 +47,17 @@
                     <div class="mobileNav">
                         <span class="closeMenu" onclick="closeMobileMenu()">X</span>
                         <ul class="mobile">
-                                    <li><h2><a href="index.html">Home</a></h2></li>
-                                    <li><h2><a href="about.html">About</a></h2></li>
-                                    <li><h2><a href="">store</a></h2></li>
-                                    <li><h2><a href="">vid</a></h2></li>
-                                    <li><h2><a href="">soft</a></h2></li>
-                                    <li><h2><a href="">shoot</a></h2></li>
-                                </ul>
+                            <li><h2><a href="index.html" onclick="closeMobileMenu()">Home</a></h2></li>
+                            <li><h2><a href="about.html" onclick="closeMobileMenu()">About</a></h2></li>
+                            <li><h2><a href="#ph" onclick="closeMobileMenu()">Intro</a></h2></li>
+                            <li><h2><a href="#We_do" onclick="closeMobileMenu()">We do</a></h2></li>
+                            <li><h2><a href="#tea" onclick="closeMobileMenu()">Team</a></h2></li>
+                            <li><h2><a href="#pat" onclick="closeMobileMenu()">Partners</a></h2></li>
+                        </ul>
                     </div>
                 </nav>
             </div>
-            <div class="phrases">
+            <div class="phrases" id="ph">
                 <h3 class="phrasesh2">"We create with tech"</h3>
                 <h1 class="phraseh1">CREATIVITY AND <br> INNOVATIVENESS AT ITS <br> BEST LEVEL</h1>
             </div>
@@ -73,7 +75,7 @@
         </header>
     </section>
         <main>
-            <div class="mainDiv">
+            <div class="mainDiv" id="We_do">
                 <h4 class="doHead">What we do</h4>
                 <hr class="doheadHr">
                 <div class="doDivLine">
@@ -155,13 +157,13 @@
                     <p> <a href="" class="doLink">Get more information about us</a></p>
                 </div>
             </div>
-            <div class="teamBack">
+            <div class="teamBack" id="tea">
 
             </div>
         </main>
     <section>
         <footer>
-            <div class="partners">
+            <div class="partners" id="pat">
                 <div class="partnersDiv Div1">
                     Partners
                     <hr class="Div1Hr">

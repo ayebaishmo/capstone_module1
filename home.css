@@ -28,9 +28,9 @@ a {
 
 .mobileNav {
   background-color: white;
-  margin-top: -20px;
   display: none;
   height: 500px;
+  margin-top: -20px;
 }
 
 .mobile {
@@ -254,7 +254,7 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  .sideMenu {
+  .sideMback {
     display: none;
   }
 
@@ -289,10 +289,17 @@ footer {
     height: 60px;
   }
 
+  .Menuli:hover {
+    border: 2px solid red;
+    color: red;
+  }
+
   .Navle {
     display: flex;
     list-style-type: none;
     margin-top: 0;
+    justify-content: center;
+    align-content: center;
   }
 
   .NavRig {
@@ -305,6 +312,7 @@ footer {
 
   .logoN {
     height: 30px;
+    margin-top: 15px;
   }
 
   .doDivLine {

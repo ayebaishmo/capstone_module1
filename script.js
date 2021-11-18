@@ -1,20 +1,23 @@
 // Side mobile menu
 const openMenu = document.querySelector('.sideMenu');
+const headP = document.querySelector('.headParaDiv');
 const mobileNav = document.querySelector('.mobileNav');
-
-function closeMobileMenu() {
-  mobileNav.style.display = 'none';
-  openMenu.style.display = 'block';
-}
-closeMobileMenu();
 
 function openMobileMenu() {
   mobileNav.style.display = 'block';
   openMenu.style.display = 'none';
+  headP.style.display = 'none';
 }
 openMobileMenu();
-// team Object
 
+function closeMobileMenu() {
+  mobileNav.style.display = 'none';
+  openMenu.style.display = 'block';
+  headP.style.display = 'block';
+}
+closeMobileMenu();
+
+// team Object
 const team = [{
   img: 'img/avatar1.png',
   desc: ['Ayebazibwe Ishmael', 'Full stackWeb developer', '<hr>', 'Ishmael is CEO My plug, who has experience in innovating through technology and sftware, for he has enabled the plug store to function'],

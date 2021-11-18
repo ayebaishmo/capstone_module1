@@ -259,7 +259,7 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  .sideMenu {
+  .sideMback {
     display: none;
   }
 
@@ -294,6 +294,11 @@ footer {
     height: 60px;
   }
 
+  .Menuli:hover{
+    border: 2px solid red;
+    color: red;
+  }
+
   .Navle {
     display: flex;
     list-style-type: none;
@@ -315,6 +320,7 @@ footer {
 
   .logoN {
     height: 30px;
+    margin-top: 15px;
   }
 
   .phrasesh2 {
