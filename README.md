@@ -59,4 +59,4 @@ Click [here](https://ayebaishmo.github.io/capstone_module1/)
 Give a ⭐️ if you like this project!
 
 # Acknowledgments
-I here By acknowledge behance.net site that has been able to provide the template design.
+I here By acknowledge [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) site that has been able to provide the template design.
