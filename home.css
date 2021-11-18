@@ -302,11 +302,11 @@ footer {
     gap: 40px;
     margin-top: 0;
   }
-  
+
   .logoN {
     height: 30px;
   }
-  
+
   .doDivLine {
     grid-template-columns: auto auto auto auto auto;
     justify-content: center;
