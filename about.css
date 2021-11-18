@@ -45,7 +45,6 @@ a {
   color: red;
 }
 
-
 .navSlide {
   display: none;
 }
@@ -272,7 +271,7 @@ footer {
 
   .mediNbac {
     background-color: black;
-    height: 30px
+    height: 30px;
   }
 
   .mediaNav {
@@ -281,7 +280,7 @@ footer {
     margin-top: -3px;
   }
 
-  .mediaNav > li{
+  .mediaNav > li {
     display: inline;
     color: white;
     margin-left: 10px;
@@ -293,7 +292,7 @@ footer {
     justify-content: center;
     gap: 160px;
     height: 60px;
-    }
+  }
 
   .Navle {
     display: flex;
@@ -346,14 +345,14 @@ footer {
   }
 
   .projectHr {
-  margin-right: 650px;
-  margin-left: 650px;
+    margin-right: 650px;
+    margin-left: 650px;
   }
 
   .projectDet {
-  grid-template-columns: auto auto;
-  margin-right: 250px;
-  margin-left: 250px;
+    grid-template-columns: auto auto;
+    margin-right: 250px;
+    margin-left: 250px;
   }
 
   .partFle {
@@ -364,8 +363,8 @@ footer {
   }
 
   .Div1Hr {
-  margin-left: 640px;
-  margin-right: 640px;
+    margin-left: 640px;
+    margin-right: 640px;
   }
 
   .copyright {

@@ -266,7 +266,7 @@ footer {
 
   .mediNbac {
     background-color: black;
-    height: 30px
+    height: 30px;
   }
 
   .mediaNav {
@@ -275,7 +275,7 @@ footer {
     margin-top: -3px;
   }
 
-  .mediaNav > li{
+  .mediaNav > li {
     display: inline;
     color: white;
     margin-left: 10px;
@@ -287,7 +287,7 @@ footer {
     justify-content: center;
     gap: 160px;
     height: 60px;
-    }
+  }
 
   .Navle {
     display: flex;
@@ -302,13 +302,14 @@ footer {
     gap: 40px;
     margin-top: 0;
   }
-
+  
   .logoN {
     height: 30px;
   }
-
+  
   .doDivLine {
     grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
   }
 
   .doDiv {
@@ -329,11 +330,11 @@ footer {
   .phrasesh2 {
     font-size: 30px;
   }
-  
+
   .phraseh1 {
     font-size: 60px;
   }
-  
+
   .head {
     height: 800px;
   }
@@ -355,21 +356,17 @@ footer {
     margin-left: 140px;
     margin-right: 140px;
   }
-  
+
   .doivpara {
     margin-top: -25px;
     text-align: center;
-  }
-
-  .doDivLine {
-    justify-content: center;
   }
 
   .doInno {
     display: none;
   }
 
-  .doLink{
+  .doLink {
     text-align: center;
     text-decoration: none;
     color: rgb(79, 80, 82);
@@ -379,7 +376,6 @@ footer {
   .teamBack {
     margin-top: 80px;
   }
-
 
   .ourHr {
     margin-left: 640px;
@@ -400,12 +396,11 @@ footer {
   }
 
   .Div1Hr {
-  margin-left: 640px;
-  margin-right: 640px;
+    margin-left: 640px;
+    margin-right: 640px;
   }
 
   .copyright {
     gap: 150px;
   }
-
 }

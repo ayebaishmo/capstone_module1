@@ -6,13 +6,13 @@ function closeMobileMenu() {
   mobileNav.style.display = 'none';
   openMenu.style.display = 'block';
 }
-closeMobileMenu()
+closeMobileMenu();
 
 function openMobileMenu() {
   mobileNav.style.display = 'block';
   openMenu.style.display = 'none';
 }
-openMobileMenu()
+openMobileMenu();
 
 // team Object
 
