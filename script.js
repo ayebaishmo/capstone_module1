@@ -6,11 +6,13 @@ function closeMobileMenu() {
   mobileNav.style.display = 'none';
   openMenu.style.display = 'block';
 }
+closeMobileMenu()
 
 function openMobileMenu() {
   mobileNav.style.display = 'block';
   openMenu.style.display = 'none';
 }
+openMobileMenu()
 
 // team Object
 
@@ -36,7 +38,7 @@ const team = [{
 },
 {
   img: 'img/avatar6.jpg',
-  desc: ['Richard Nabende', 'Program cordinator','<hr>', 'Each year we handle diffrent kinds of project for our clients, Richard makes sure that projects are managed effeciently.'],
+  desc: ['Richard Nabende', 'Program cordinator', '<hr>', 'Each year we handle diffrent kinds of project for our clients, Richard makes sure that projects are managed effeciently.'],
 },
 ];
 
@@ -61,7 +63,7 @@ for (let i = 0; i < team.length; i += 1) {
   teamDec.className = 'teamDec';
   teamGrid.appendChild(teamDec);
 
-// img div
+  // img div
   const imgDiv = document.createElement('div');
   teamDec.appendChild(imgDiv);
   const teamImg = document.createElement('img');
@@ -69,17 +71,17 @@ for (let i = 0; i < team.length; i += 1) {
   teamImg.className = 'avatar1';
   imgDiv.appendChild(teamImg);
 
-// team ul
-  const  ulDiv = document.createElement('div');
+  // team ul
+  const ulDiv = document.createElement('div');
   teamDec.appendChild(ulDiv);
   const teamDet = document.createElement('ul');
   teamDet.className = 'teamDet';
   ulDiv.appendChild(teamDet);
 
-// team li
+  // team li
   for (let j = 0; j < team[i].desc.length; j += 1) {
     const liteam = document.createElement('li');
     teamDet.appendChild(liteam);
     liteam.innerHTML = team[i].desc[j];
-}
+  }
 }
