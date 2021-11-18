@@ -13,7 +13,6 @@ function openMobileMenu() {
   openMenu.style.display = 'none';
 }
 openMobileMenu();
-
 // team Object
 
 const team = [{
