@@ -85,6 +85,15 @@ a {
   margin-top: -10px;
 }
 
+.mainDiv {
+  margin-top: -27px;
+}
+
+.wedoB {
+  height: 900px;
+  background-image: url("img/wedo_back.jpg");
+}
+
 .doHead {
   text-align: center;
   color: red;
@@ -95,6 +104,7 @@ a {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 10px;
+  margin-top: 60px;
 }
 
 .doDiv {
@@ -324,6 +334,10 @@ footer {
     margin-top: 15px;
   }
 
+  .wedoB {
+    height: 400px;
+  }
+
   .doDivLine {
     grid-template-columns: auto auto auto auto auto;
     justify-content: center;
@@ -388,6 +402,7 @@ footer {
     text-decoration: none;
     color: rgb(79, 80, 82);
     display: block;
+    margin-top: 40px;
   }
 
   .teamBack {
