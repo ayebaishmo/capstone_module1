@@ -245,6 +245,10 @@ footer {
   color: rgb(101, 103, 104);
 }
 
+.copyDiv {
+  display: flex;
+}
+
 .copyright {
   display: flex;
   margin-top: 90px;
