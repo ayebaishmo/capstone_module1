@@ -255,6 +255,10 @@ footer {
   color: rgb(101, 103, 104);
 }
 
+.copyDiv {
+  display: flex;
+}
+
 .copyright {
   display: flex;
   margin-top: 90px;
@@ -433,7 +437,7 @@ footer {
     gap: 90px;
   }
 
-  .Div1Hr {
+  .div1Hr {
     margin-left: 640px;
     margin-right: 640px;
   }
