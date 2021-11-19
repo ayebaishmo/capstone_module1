@@ -275,15 +275,20 @@ footer {
   }
 
   .mediaNav {
+    display: flex;
+    margin-top: 3px;
     float: right;
     margin-right: 190px;
-    margin-top: -3px;
   }
 
   .mediaNav > li {
     display: inline;
     color: white;
     margin-left: 10px;
+  }
+
+  .naVimg {
+    height: 18px;
   }
 
   .relNav {
