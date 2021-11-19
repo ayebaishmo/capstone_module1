@@ -21,7 +21,7 @@ closeMobileMenu();
 const team = [{
   img: 'img/avatar1.png',
   name: 'Ayebazibwe Ishmael',
-  title: 'Full stackWeb developer', 
+  title: 'Full stackWeb developer',
   desc: 'Ishmael is CEO My plug, who has experience in innovating through technology and sftware, for he has enabled the plug store to function',
 },
 {
