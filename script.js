@@ -20,27 +20,39 @@ closeMobileMenu();
 // team Object
 const team = [{
   img: 'img/avatar1.png',
-  desc: ['Ayebazibwe Ishmael', 'Full stackWeb developer', '<hr>', 'Ishmael is CEO My plug, who has experience in innovating through technology and sftware, for he has enabled the plug store to function'],
+  name: 'Ayebazibwe Ishmael',
+  title: 'Full stackWeb developer', 
+  desc: 'Ishmael is CEO My plug, who has experience in innovating through technology and sftware, for he has enabled the plug store to function',
 },
 {
   img: 'img/avatar2.jpg',
-  desc: ['Natweta Edmon', 'Grapphics Designer', '<hr>', 'Edmond heads the graphic department, He is responisible for the brand look of our clients that are need of that service'],
+  name: 'Natweta Edmon',
+  title: 'Grapphics Designer', 
+  desc: 'Edmond heads the graphic department, He is responisible for the brand look of our clients that are need of that service',
 },
 {
   img: 'img/avatar5.jpg',
-  desc: ['Masaba Johhn', 'Producer', '<hr>', 'John is the best producer around town, for all our  clients production are readily produced by John Masaba the man'],
+  name: 'Masaba Johhn',
+  title: 'Producer', 
+  desc: 'John is the best producer around town, for all our  clients production are readily produced by John Masaba the man',
 },
 {
   img: 'img/avatar3.jpg',
-  desc: ['Apio Sheillah', 'Video Director', '<hr>', 'Sheillah is in charge of video and audio commercials for our clients that run on both television and radios plus social media'],
+  name: 'Apio Sheillah',
+  title: 'Video Director', 
+  desc: 'Sheillah is in charge of video and audio commercials for our clients that run on both television and radios plus social media',
 },
 {
   img: 'img/avatar4.jpg',
-  desc: ['Nazziwa Jane', 'Marketier', '<hr>', 'Jane dose not only market for My plug but also  my plug store creators who sell and and create products on my plug store'],
+  name: 'Nazziwa Jane',
+  title: 'Marketier', 
+  desc: 'Jane dose not only market for My plug but also  my plug store creators who sell and and create products on my plug store',
 },
 {
   img: 'img/avatar6.jpg',
-  desc: ['Richard Nabende', 'Program cordinator', '<hr>', 'Each year we handle diffrent kinds of project for our clients, Richard makes sure that projects are managed effeciently.'],
+  name: 'Richard Nabende',
+  title: 'Program cordinator', 
+  desc: 'Each year we handle diffrent kinds of project for our clients, Richard makes sure that projects are managed effeciently.',
 },
 ];
 
@@ -81,9 +93,22 @@ for (let i = 0; i < team.length; i += 1) {
   ulDiv.appendChild(teamDet);
 
   // team li
-  for (let j = 0; j < team[i].desc.length; j += 1) {
-    const liteam = document.createElement('li');
-    teamDet.appendChild(liteam);
-    liteam.innerHTML = team[i].desc[j];
-  }
+  
+  var liteam = document.createElement('li');
+  teamDet.appendChild(liteam);
+  liteam.innerHTML = team[i].name;
+
+  var liteamo = document.createElement('li');
+  teamDet.appendChild(liteamo);
+  liteamo.className = 'titleT';
+  liteamo.innerHTML = team[i].title;
+
+  var teamHr =document.createElement('hr');
+  teamHr.className = 'teamHr';
+  liteamo.appendChild(teamHr);
+
+  var liteamt = document.createElement('li');
+  teamDet.appendChild(liteamt);
+  liteamt.innerHTML = team[i].title;
+  liteamt.innerHTML = team[i].desc;
 }

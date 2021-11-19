@@ -185,6 +185,10 @@ a {
   margin-right: 190px;
 }
 
+.titleT {
+  color: red;
+}
+
 footer {
   margin-top: 100px;
 }
@@ -383,6 +387,10 @@ footer {
 
   .teamBack {
     margin-top: 80px;
+  }
+
+  .teamHr { 
+    margin-right: 350px;
   }
 
   .ourHr {
