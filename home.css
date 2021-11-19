@@ -444,6 +444,7 @@ footer {
   }
 
   .copyright {
-    gap: 150px;
+    gap: 50px;
+    margin-right: 260px;
   }
 }
