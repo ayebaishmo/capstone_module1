@@ -107,7 +107,7 @@ for (let i = 0; i < team.length; i += 1) {
   liteamo.appendChild(teamHr);
 
   const liteamt = document.createElement('li');
+  liteamt.className = 'teamDesc'
   teamDet.appendChild(liteamt);
-  liteamt.innerHTML = team[i].title;
   liteamt.innerHTML = team[i].desc;
 }
