@@ -223,29 +223,29 @@ footer {
   display: flex;
 }
 
-.Div1 {
+.div1 {
   color: white;
 }
 
-.Div1Hr {
+.div1Hr {
   color: red;
   margin-left: 150px;
   margin-right: 150px;
 }
 
-.Div2 {
+.div2 {
   color: rgb(159, 162, 163);
 }
 
-.Div4 {
+.div4 {
   color: rgb(142, 145, 148);
 }
 
-.Div5 {
+.div5 {
   color: rgb(190, 195, 199);
 }
 
-.Div3 {
+.div3 {
   color: rgb(101, 103, 104);
 }
 
@@ -311,18 +311,18 @@ footer {
     height: 60px;
   }
 
-  .Menuli:hover {
+  .menuli:hover {
     border: 2px solid red;
     color: red;
   }
 
-  .Navle {
+  .navle {
     display: flex;
     list-style-type: none;
     margin-top: 0;
   }
 
-  .NavRig {
+  .navRig {
     float: left;
     display: flex;
     list-style-type: none;

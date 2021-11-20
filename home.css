@@ -331,12 +331,12 @@ footer {
     height: 60px;
   }
 
-  .Menuli:hover {
+  .menuli:hover {
     border: 2px solid red;
     color: red;
   }
 
-  .Navle {
+  .navle {
     display: flex;
     list-style-type: none;
     margin-top: 0;
@@ -344,7 +344,7 @@ footer {
     align-content: center;
   }
 
-  .NavRig {
+  .navRig {
     float: left;
     display: flex;
     list-style-type: none;
